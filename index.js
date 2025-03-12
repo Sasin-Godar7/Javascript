@@ -12,3 +12,17 @@ console.log("b="+b);
 let string = "prabin";
 //simply displaying it 
 console.log("My name is "+string); 
+//for boolean datatypes we use
+ let Boolean =true;
+console.log(Boolean);
+// if we are declearing a constant variable then we can simply use const keyword,this cannnot bbe changed further.
+const age = 20;
+//age = 30; This is wrong
+// we can make object in javascripgt which makes a container where we can store multiple data of different datatype
+// we generally decleare the object by using const keywird,example
+const Student = {
+     fullname:"prabin Thapa",
+     age:20,
+     address:chitwan,
+     ispass:true
+};
