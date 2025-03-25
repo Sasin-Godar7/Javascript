@@ -333,3 +333,6 @@
 //     sum = sum+arr[i];
 // }
 // console.log("The sum is "+sum);
+
+
+// hi this is me prabin thapa and i have forked this file 
