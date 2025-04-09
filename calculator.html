@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+    .container
+    {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       background: aliceblue;
+    }
+    .calculator
+    {
+        background:#080808;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .calculator button
+    {
+        cursor: pointer;
+        padding:0 10px;
+        margin: 5px 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1 style="color:#ffff;">Calculator</h1>
+        <input type="number" id ="number">
+        <div class="btn1">
+            <button onclick="">AC</button>
+            <button onclick="click('%')">%</button>
+            <button onclick="click('$')">$</button>
+            <button onclick="click('/')">/</button>
+        </div>
+        <div class="btn1">
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button value="X">X</button>
+        </div>
+        <div class="btn1">
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button value="-">-</button>
+        </div>
+        <div class="btn1">
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="4">4</button>
+            <button value="+">+</button>
+        </div>
+        <div class="btn1">
+            <button value="^">^</button>
+            <button value="0">0</button>
+            <button value=".">.</button>
+            <button value="=">=</button>
+        </div>
+    </div>
+    </div>
+    <script>
+        function click(val)
+        {
+             document.getElementById("number").value +=val;
+        }
+    </script>
+</body>
+</html>
